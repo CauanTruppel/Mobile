@@ -4,6 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/Visual/Geral/style.css">
     <title>Atividade Login</title>
+    <script src="/Script/script.js"></script>
 </head>
 <body>
     <section>
@@ -14,16 +15,13 @@
             <div class="campo">
                 <label for="name">Nome:</label><br>
                 <input type="text" id="name" name="name"><br>
-                <span role="alert" id="nameError" aria-hidden="true">
-                    Please enter First Name
-                </span>
             </div>
             <div class="campo">
                 <label for="senha">Senha:</label><br>
                 <input type="password" id="senha" name="senha"><br>
             </div>
             <div id="btn">
-                <button id="processa" type="button" onclick="salvarDados()"><a href=""></a>Entrar</button>
+                <button id="processa" type="button" onclick="salvarDados()">Entrar</button>
             </div>
         </form>
     </section>
